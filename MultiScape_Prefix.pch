@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MultiScape' target in the 'MultiScape' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
