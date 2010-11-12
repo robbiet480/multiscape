@@ -249,6 +249,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -296,8 +298,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>1</integer>
+									<integer>13</integer>
+									<integer>10</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -332,14 +334,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MSMainWinController.m</string>
+								<string>Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -347,11 +347,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MSMainWinController.m</string>
+										<string>Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>35B4E67B128D95FD0046318A</string>
+										<string>35B4E68A128D9C320046318A</string>
 										<key>history</key>
 										<array>
 											<string>3518385C0EFECC7D000808D6</string>
@@ -371,7 +371,9 @@
 											<string>35B4E643128D914E0046318A</string>
 											<string>35B4E66A128D93DF0046318A</string>
 											<string>35B4E673128D95620046318A</string>
-											<string>35B4E674128D95620046318A</string>
+											<string>35B4E67D128D9C250046318A</string>
+											<string>35B4E67E128D9C250046318A</string>
+											<string>35B4E689128D9C320046318A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -383,14 +385,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1634, 852}}</string>
+								<string>{{0, 0}, {1634, 850}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 175 1920 1003 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>852pt</string>
+							<string>850pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -403,14 +405,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 857}, {1634, 105}}</string>
+								<string>{{0, 855}, {1634, 107}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 175 1920 1003 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>105pt</string>
+							<string>107pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -429,9 +431,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>35B4E646128D914E0046318A</string>
+				<string>35B4E68B128D9C320046318A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>35B4E647128D914E0046318A</string>
+				<string>35B4E68C128D9C320046318A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -552,7 +554,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>311268861.70471001</real>
+	<real>311270450.83076102</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -567,13 +569,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>35B4E67C128D95FD0046318A</string>
-		<string>35B4E64A128D914E0046318A</string>
-		<string>35B4E64B128D914E0046318A</string>
-		<string>/Users/zwerdlds/Development/multiscape/MultiScape.xcodeproj</string>
 		<string>356E18580EFD9C10005119F7</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>/Users/zwerdlds/Development/multiscape/MultiScape.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 175 1920 1003 0 0 1920 1178 </string>
@@ -597,7 +595,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MSMainWinController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -614,8 +612,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -655,7 +651,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>356E18580EFD9C10005119F7</string>
-				<string>35B4E611128D8D060046318A</string>
+				<string>35B4E68D128D9C320046318A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -666,7 +662,7 @@
 			<key>WindowToolGUID</key>
 			<string>356E18580EFD9C10005119F7</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -775,13 +771,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>35B4E612128D8D060046318A</string>
+				<string>35B4E68E128D9C320046318A</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>35B4E613128D8D060046318A</string>
-				<string>35B4E614128D8D060046318A</string>
-				<string>35B4E615128D8D060046318A</string>
-				<string>35B4E616128D8D060046318A</string>
-				<string>35B4E617128D8D060046318A</string>
+				<string>35B4E68F128D9C320046318A</string>
+				<string>35B4E690128D9C320046318A</string>
+				<string>35B4E691128D9C320046318A</string>
+				<string>35B4E692128D9C320046318A</string>
+				<string>35B4E693128D9C320046318A</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
