@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		351ADEB8128C783600676F5A /* MSBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 351ADEB7128C783600676F5A /* MSBackgroundWorker.m */; };
 		355EA1640EFECD2F0035F797 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355EA1630EFECD2F0035F797 /* QuartzCore.framework */; };
 		356E18660EFD9C38005119F7 /* MSMainWinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E18650EFD9C38005119F7 /* MSMainWinController.m */; };
 		356E186F0EFD9ED8005119F7 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356E186E0EFD9ED8005119F7 /* ApplicationServices.framework */; };
@@ -28,6 +29,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* MultiScape_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiScape_Prefix.pch; sourceTree = "<group>"; };
+		351ADEB6128C783600676F5A /* MSBackgroundWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBackgroundWorker.h; sourceTree = "<group>"; };
+		351ADEB7128C783600676F5A /* MSBackgroundWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBackgroundWorker.m; sourceTree = "<group>"; };
 		3536FCB60FCFAD3B00D61072 /* MultiScape tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiScape tests-Info.plist"; sourceTree = "<group>"; };
 		355EA1630EFECD2F0035F797 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		356E18640EFD9C38005119F7 /* MSMainWinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMainWinController.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				35DCB5940F04007C0053EF95 /* SystemEvents.h */,
 				356E18640EFD9C38005119F7 /* MSMainWinController.h */,
 				356E18650EFD9C38005119F7 /* MSMainWinController.m */,
+				351ADEB6128C783600676F5A /* MSBackgroundWorker.h */,
+				351ADEB7128C783600676F5A /* MSBackgroundWorker.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -174,7 +179,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MultiScape" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* MultiScape */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -205,6 +217,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				356E18660EFD9C38005119F7 /* MSMainWinController.m in Sources */,
+				351ADEB8128C783600676F5A /* MSBackgroundWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
