@@ -132,7 +132,7 @@
 	[ciContext drawImage:ciImage atPoint:imageDestinationRect.origin fromRect:extent];
 	[NSGraphicsContext restoreGraphicsState];
 	[NSGraphicsContext restoreGraphicsState];
-    return [bitmapImageRep autorelease];
+    return bitmapImageRep;
 }
 
 -(CIImage*)	cropImage:(CIImage*)imageToCrop forScreen:(CIVector*)screenCropVector
