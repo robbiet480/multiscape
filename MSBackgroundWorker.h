@@ -25,7 +25,7 @@
 #define MSBackgroundWorkerFinishedNotification @"MSBackgroundWorkerFinishedNotification"
 
 @interface MSBackgroundWorker : NSObject {
-	NSImage *baseImage;
+	NSImage *__weak baseImage;
 	
 	//For setting the desktop
 	SystemEventsApplication *sysEventsBridgeApp;
@@ -33,11 +33,11 @@
 	//For creating the folders for output
 	NSFileManager *fileManager;	
 	
-	NSString *procText;
+	NSString *__weak procText;
 }
 
-@property (assign, readwrite) NSImage *baseImage; 
-@property (assign, readwrite) NSString *procText;
+@property (weak, readwrite) NSImage *baseImage; 
+@property (weak, readwrite) NSString *procText;
 
 -(void) execute;
 -(void) notifyOfCompletionInMainThread;

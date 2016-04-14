@@ -8,3 +8,6 @@ Simply drag and drop any image onto the window. It can be a image on the local c
 
 **Thanks**
 David Zwerdling for the original code
+
+To download a Mac dmg:
+https://sourceforge.net/projects/multiscape/files/?
